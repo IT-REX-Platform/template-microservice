@@ -4,7 +4,6 @@ services:
   database-template:
     image: postgres:alpine
     restart: always
-    network_mode: bridge
     expose:
       - 1032
     ports:
