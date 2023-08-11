@@ -1,0 +1,17 @@
+type ResourceMarkdown {
+    """
+    The raw ResourceMarkdown text.
+    """
+    text: String!
+    """
+    Ids of MediaRecords referenced in the ResourceMarkdown text in order.
+    """
+    referencedMediaRecordIds: [UUID!]!
+}
+
+input ResourceMarkdownInput {
+    """
+    The raw ResourceMarkdown text.
+    """
+    text: String!
+}
