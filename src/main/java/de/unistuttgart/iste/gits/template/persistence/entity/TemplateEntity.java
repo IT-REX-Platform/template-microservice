@@ -1,10 +1,7 @@
-package de.unistuttgart.iste.gits.template.persistence.dao;
+package de.unistuttgart.iste.gits.template.persistence.entity;
 
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 @Entity(name = "Template")
 @Data

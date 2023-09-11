@@ -11,7 +11,7 @@ This package structure is based on multiple sources of best practices in Spring 
   - *dto*
   - *exception*
   - *persistence*
-    - *dao*
+    - *entity*
     - *repository*
     - *mapper*
   - *service*
@@ -58,9 +58,12 @@ More information can be found in the [Exception package](src/main/java/de/unistu
 
 ### Persistence package
 
-This package contains all classes that are used to persist data in the database. This includes the DAOs (data access objects), the mapping logic between entities and DTOs, as well as the repositories.
+This package contains all classes that are used to persist data in the database. This includes the entities, the mapping
+logic between entities and DTOs, as well as the repositories.
 
-More information can be found in the [Dao package](src/main/java/de/unistuttgart/iste/gits/template/persistence/dao/package-info.java) and the [Repository package](src/main/java/de/unistuttgart/iste/gits/template/persistence/repository/package-info.java).
+More information can be found in
+the [Entity package](src/main/java/de/unistuttgart/iste/gits/template/persistence/entity/package-info.java) and
+the [Repository package](src/main/java/de/unistuttgart/iste/gits/template/persistence/repository/package-info.java).
 
 ### Service package
 

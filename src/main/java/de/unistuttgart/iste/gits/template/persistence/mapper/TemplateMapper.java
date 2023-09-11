@@ -1,7 +1,7 @@
 package de.unistuttgart.iste.gits.template.persistence.mapper;
 
 import de.unistuttgart.iste.gits.generated.dto.Template;
-import de.unistuttgart.iste.gits.template.persistence.dao.TemplateEntity;
+import de.unistuttgart.iste.gits.template.persistence.entity.TemplateEntity;
 import lombok.RequiredArgsConstructor;
 import org.modelmapper.ModelMapper;
 import org.springframework.stereotype.Component;
