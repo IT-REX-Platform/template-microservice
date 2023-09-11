@@ -1,6 +1,6 @@
 package de.unistuttgart.iste.gits.template.persistence.repository;
 
-import de.unistuttgart.iste.gits.template.persistence.dao.TemplateEntity;
+import de.unistuttgart.iste.gits.template.persistence.entity.TemplateEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
