@@ -82,7 +82,9 @@ If these directives are not sufficient, the validation logic can also be placed 
 
 ### Todos
 
-After cloning the repository, you need to do the following steps:
+Follow the guide in the wiki: https://github.com/IT-REX-Platform/wiki/blob/main/dev-manuals/backend/new-service.md
+
+Addtionally, after cloning the repository, you need to do the following steps:
 - [ ] Setup the gradle files correctly. This means
   - [ ] Change the project name in the `settings.gradle` file
   - [ ] Change the package name in the `build.gradle` file (there is a TODO comment)
@@ -93,7 +95,6 @@ After cloning the repository, you need to do the following steps:
 - [ ] Update the application.properties file in the `src/main/resources` folder (check the TODOS in the file)
 - [ ] Change the ports and name of the database in the docker-compose.yml (see wiki on how to)
 - [ ] Define the GraphQL schema in the `src/main/resources/schema.graphqls` file
-- [ ] Create a new database
 <!-- TODO there probably more TODOs -->
 
 
