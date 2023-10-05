@@ -2,14 +2,22 @@
 # package ecosystems to update and where the package manifests are located.
 # Please see the documentation for all configuration options:
 # https://docs.github.com/github/administering-a-repository/configuration-options-for-dependency-updates
-
-#Maintain App gradle dependencies
 version: 2
 updates:
-  - package-ecosystem: gradle # See documentation for possible values
-    directory: "/" # Location of package manifests
+  # Maintain dependencies for GitHub Actions
+  - package-ecosystem: "github-actions"
+    directory: "/"
     schedule:
       interval: "daily"
-    open-pull-request-limit: 5
+    open-pull-requests-limit: 5
+    labels:
+      - "Github Actions"
+
+  # Maintain App gradle dependencies
+  - package-ecosystem: "gradle"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    open-pull-requests-limit: 5
     labels:
       - "Dependencies"
